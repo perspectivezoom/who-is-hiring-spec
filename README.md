@@ -8,7 +8,7 @@ Each job listing begins with the following pipe delimited metadata, followed by 
 
 ## Example
 ```
-Acme Products | Test Engineer | Las Vegas, NV; (Remote OK) | Full-Time | Data Science
+Acme Products | Test Engineer | Las Vegas, NV; (Remote OK) | Full-Time | Tunnel Theory; Kinematics
 
 Engineer needed to test prototype products. Must be able to lift and carry anvils. metafriendly
 ```
