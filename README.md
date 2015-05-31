@@ -1,5 +1,5 @@
 ## The Spec
-Each job listing begins with the following pipe delimited metadata, followed by any number of paragraphs for further info. The unique string "metafriendly" is added to let parsers know that it conforms to the spec
+Each job listing begins with the following ordered pipe delimited metadata, followed by any number of paragraphs for further info. The unique string "metafriendly" is added to let parsers know that it conforms to the spec
 ```
 [Company name] | [Job title] | [location(s), semi-colon delimited, "(Remote OK)", if applicable] | [Full-Time/Part-Time/Intern] | [Citizen/Visa (optional type, semi-colon delimited)] | [Optional list of semi-colon delimited keywords]
 
@@ -15,7 +15,7 @@ Engineer needed to test prototype products. Must be able to lift and carry anvil
 
 ## Attribute Notes
 
-* **Location:** Must be geocodable; Any string (with the exception of `(Remote OK)`) must give one unambiguous set of LatLng coordinates. The words `(Remote OK)` should only be used in the positive sense; phrases such as `(Remote Not OK)` or `(No Remote)` is not allowed.
+* **Location:** Must be geocodable; Any string (with the exception of `(Remote OK)`) must give one unambiguous set of LatLng coordinates. The words `(Remote OK)` should only be used in the positive sense; phrases such as `(Remote Not OK)` or `(No Remote)` are not allowed.
 
 ## FAQ
 
