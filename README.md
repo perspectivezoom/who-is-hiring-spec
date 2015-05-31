@@ -1,5 +1,3 @@
-# who-is-hiring-spec
-
 ## The Spec
 Each job listing begins with the following pipe delimited metadata, followed by any number of paragraphs for further info. The unique string "metafriendly" is added to let parsers know that it conforms to the spec
 ```
