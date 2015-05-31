@@ -1,5 +1,5 @@
 ## The Spec
-Each job listing begins with the following ordered pipe delimited metadata, followed by any number of paragraphs for further info. The unique string "metafriendly" is added to let parsers know that it conforms to the spec
+Each job listing begins with the following ordered pipe delimited metadata, followed by any number of paragraphs for further info. The unique string "metafriendly" is added to the post to let parsers know that it conforms to the spec
 ```
 [Company name] | [Job title] | [location(s), semi-colon delimited, "(Remote OK)", if applicable] | [Full-Time/Part-Time/Intern] | [Citizen/Visa (optional type, semi-colon delimited)] | [Optional list of semi-colon delimited keywords]
 
