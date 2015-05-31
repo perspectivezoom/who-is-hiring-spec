@@ -13,6 +13,20 @@ Acme Products | Test Engineer | Las Vegas, NV; (Remote OK) | Full-Time | Visa (H
 Engineer needed to test prototype products. Must be able to lift and carry anvils. metafriendly
 ```
 
+## Attribute Notes
+
+* **Location:** Must be geocodable; Any string (with the exception of `(Remote OK)`) must give one unambiguous set of LatLng coordinates. The words `(Remote OK)` should only be used in the positive sense; phrases such as `(Remote Not OK)` or `(No Remote)` is not allowed.
+
+## FAQ
+
+**Why have a spec at all?**
+
+To be better able to filter our irrelevant job listings. There are a number of third party sites that parse whoishiring information, but are unable to accurately do so because of inconsistent information. Most notably, false positives on `remote` work, being unable to accurately determine job location, and mistaking the keybord `intern` with international in job descriptions.
+
+**Why not a more machine friendly format, like YAML?**
+
+A line break after each attribute would balloon the vertical size of posts quite a bit, making the original page of posts not as useful.
+
 ## Acknowledgements
 
 This pipe-delimited spec is mostly stolen from [this comment by danso](https://news.ycombinator.com/item?id=9635683)
