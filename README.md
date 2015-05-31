@@ -8,7 +8,7 @@ Each job listing begins with the following ordered pipe delimited metadata, foll
 
 ## Example
 ```
-Acme Products | Test Engineer | Las Vegas, NV; (Remote OK) | Full-Time | Visa (H1B) | Tunnel Theory; Kinematics
+Acme Products | Test Engineer | Las Vegas, NV; (Remote OK) | Full-Time; Part-Time | Visa (H1B) | Tunnel Theory; Kinematics
 
 Engineer needed to test prototype products. Must be able to lift and carry anvils. metafriendly
 ```
