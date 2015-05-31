@@ -21,7 +21,7 @@ Engineer needed to test prototype products. Must be able to lift and carry anvil
 
 **Why have a spec at all?**
 
-To be better able to filter our irrelevant job listings. There are a number of third party sites that parse whoishiring information, but are unable to accurately do so because of inconsistent information. Most notably, false positives on `remote` work, being unable to accurately determine job location, and mistaking the keybord `intern` with international in job descriptions.
+To be better able to filter our irrelevant job listings. There are a number of third party sites that parse whoishiring information, but are unable to accurately do so because of inconsistent formatting. Most notably, false positives on `remote` work, being unable to accurately determine job location, and mistaking the keybord `intern` with international in job descriptions.
 
 **Why not a more machine friendly format, like YAML?**
 
