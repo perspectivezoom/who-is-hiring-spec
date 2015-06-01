@@ -3,14 +3,16 @@ Each job listing begins with the following ordered, pipe-delimited metadata, fol
 ```
 [Company name] | [Job title] | [location(s), semi-colon delimited] | [Remote/Onsite, semi-colon delimited] | [Full-Time/Part-Time/Intern] | [Citizen/Visa (optional type, semi-colon delimited)] | [Optional list of semi-colon delimited keywords]
 
-[Additional Freeform Information] metafriendly
+[Additional Freeform Information] 
+metafriendly
 ```
 
 ## Example
 ```
 Acme Products | Test Engineer | Las Vegas, NV; Austin, TX | Onsite; Remote | Full-Time; Part-Time | Visa (H1B) | Tunnel Theory; Kinematics
 
-Engineer needed to test prototype products. Must be able to lift and carry anvils. metafriendly
+Engineer needed to test prototype products. Must be able to lift and carry anvils. 
+metafriendly
 ```
 
 ## Attribute Notes
