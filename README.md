@@ -1,5 +1,5 @@
 ## The Spec
-Each job listing begins with the following ordered pipe delimited metadata, followed by any number of paragraphs for further info. The unique string "metafriendly" is added to the post to let parsers know that it conforms to the spec
+Each job listing begins with the following ordered, pipe-delimited metadata, followed by any number of paragraphs for further info. The unique string "metafriendly" is added to the post to let parsers know that it conforms to the spec
 ```
 [Company name] | [Job title] | [location(s), semi-colon delimited, "(Remote OK)", if applicable] | [Full-Time/Part-Time/Intern] | [Citizen/Visa (optional type, semi-colon delimited)] | [Optional list of semi-colon delimited keywords]
 
@@ -26,6 +26,10 @@ To be better able to filter our irrelevant job listings. There are a number of t
 **Why not a more machine friendly format, like YAML?**
 
 A line break after each attribute would balloon the vertical size of posts quite a bit, making the original page of posts not as useful.
+
+**What if I don't want to share the company name?**
+
+Put `Stealth Company` or something in the beginning.
 
 ## Acknowledgements
 
