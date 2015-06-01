@@ -17,6 +17,7 @@ Engineer needed to test prototype products. Must be able to lift and carry anvil
 
 * **Location:** Must be geocodable; Any string (with the exception of `(Remote OK)`) must give one unambiguous set of LatLng coordinates.
 * **Onsite/Remote:** The word `Remote` should only be used in the positive sense; phrases such as `No Remote` are not allowed.
+* **Citizen/Visa:** It can be assumed that by stating `Visa`, the job posting also accepts applicants that are `Citizen`, and `Citizen` can be omitted. Please note that this is not true for other attributes; it is possible for companies to look for Remote only applicants, or only Part-Time applicants.
 
 ## FAQ
 
