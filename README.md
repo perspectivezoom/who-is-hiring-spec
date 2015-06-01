@@ -35,4 +35,4 @@ Put `Stealth Company` or something in the beginning.
 
 ## Acknowledgements
 
-This pipe-delimited spec is mostly stolen from [this comment by danso](https://news.ycombinator.com/item?id=9635683)
+This pipe-delimited spec is mostly stolen from [this comment by danso](https://news.ycombinator.com/item?id=9635683). [This comment by phantom_oracle](https://news.ycombinator.com/item?id=9635791) convinced me to add the Onsite/Remote distinction.
