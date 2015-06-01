@@ -1,5 +1,7 @@
 ## The Spec
+
 Each job listing begins with the following ordered, pipe-delimited metadata, followed by any number of paragraphs for further info. The unique string "metafriendly" is added to the post to let parsers know that it conforms to the spec
+
 ```
 [Company name] | [Job title] | [location(s), semi-colon delimited] | [Remote/Onsite, semi-colon delimited] | [Full-Time/Part-Time/Intern] | [Citizen/Visa (optional type, semi-colon delimited)] | [Optional list of semi-colon delimited keywords]
 
@@ -8,6 +10,7 @@ metafriendly
 ```
 
 ## Example
+
 ```
 Acme Products | Test Engineer | Las Vegas, NV; Austin, TX | Onsite; Remote | Full-Time; Part-Time | Visa (H1B) | Tunnel Theory; Kinematics
 
@@ -17,9 +20,11 @@ metafriendly
 
 ## Attribute Notes
 
-* **Location:** Must be geocodable; Any string must give one unambiguous set of LatLng coordinates.
-* **Onsite/Remote:** The word `Remote` should only be used in the positive sense; phrases such as `No Remote` are not allowed.
+* **Location:** MUST be geocodable; Any string MUST give one unambiguous set of LatLng coordinates.
+* **Onsite/Remote:** The word `Remote` SHOULD only be used in the positive sense; phrases such as `No Remote` are not allowed.
 * **Citizen/Visa:** It can be assumed that by stating `Visa`, the job posting also accepts applicants that are `Citizen`, and `Citizen` can be omitted. Please note that this is not true for other attributes; it is possible for companies to look for Remote only applicants, or only Part-Time applicants.
+
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119.
 
 ## FAQ
 
