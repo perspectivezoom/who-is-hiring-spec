@@ -1,21 +1,22 @@
 ## The Spec
 Each job listing begins with the following ordered, pipe-delimited metadata, followed by any number of paragraphs for further info. The unique string "metafriendly" is added to the post to let parsers know that it conforms to the spec
 ```
-[Company name] | [Job title] | [location(s), semi-colon delimited, "(Remote OK)", if applicable] | [Full-Time/Part-Time/Intern] | [Citizen/Visa (optional type, semi-colon delimited)] | [Optional list of semi-colon delimited keywords]
+[Company name] | [Job title] | [location(s), semi-colon delimited] | [Remote/Onsite, semi-colon delimited] | [Full-Time/Part-Time/Intern] | [Citizen/Visa (optional type, semi-colon delimited)] | [Optional list of semi-colon delimited keywords]
 
 [Additional Freeform Information] metafriendly
 ```
 
 ## Example
 ```
-Acme Products | Test Engineer | Las Vegas, NV; (Remote OK) | Full-Time; Part-Time | Visa (H1B) | Tunnel Theory; Kinematics
+Acme Products | Test Engineer | Las Vegas, NV; Austin, TX | Onsite; Remote | Full-Time; Part-Time | Visa (H1B) | Tunnel Theory; Kinematics
 
 Engineer needed to test prototype products. Must be able to lift and carry anvils. metafriendly
 ```
 
 ## Attribute Notes
 
-* **Location:** Must be geocodable; Any string (with the exception of `(Remote OK)`) must give one unambiguous set of LatLng coordinates. The words `(Remote OK)` should only be used in the positive sense; phrases such as `(Remote Not OK)` or `(No Remote)` are not allowed.
+* **Location:** Must be geocodable; Any string (with the exception of `(Remote OK)`) must give one unambiguous set of LatLng coordinates.
+* **Onsite/Remote:** The word `Remote` should only be used in the positive sense; phrases such as `No Remote` are not allowed.
 
 ## FAQ
 
