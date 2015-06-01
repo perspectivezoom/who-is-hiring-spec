@@ -29,7 +29,7 @@ To be better able to filter out irrelevant job listings. There are a number of t
 
 **Why not a more machine friendly format, like YAML?**
 
-A line break after each attribute would balloon the vertical size of posts quite a bit, making the original page of posts not as useful.
+A line break after each attribute would balloon the vertical size of posts quite a bit, making the original page of posts not as useful. The spec can be easilly parsed by using [regular expressions](https://regex101.com/r/bG8kF8/1) as long as the spec is followed.
 
 **What if I don't want to share the company name?**
 
